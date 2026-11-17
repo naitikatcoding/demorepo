@@ -19,8 +19,8 @@ jobs:
       - name: Make a daily change
         run: |
           date >> activity.log
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "naitikgupta2713@gmail.com"
+          git config --local user.name "naitikatcoding"
           git add activity.log
           git commit -m "Daily update: $(date +'%Y-%m-%d')"
           git push
